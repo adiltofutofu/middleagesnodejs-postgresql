@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+.logout{
+    position: relative;
+    background-image: url("/images/button.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 200px;
+}
+.out-button {
+    position: absolute;
+    font-size: 22px;
+    left: 40%;
+    top: 7.5%;
+}
+
+body {
+    background-color: #303030;
+    margin: 0;
+    padding: 0;
+    color: #303030;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: #303030;
+}
+
+.auth-bg {
+    margin-top: 2.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 1120px;
+    margin-bottom: 2.5%;
+}
+.auth-div {
+    background-color: #FBF9F5;
+    height: 690px;
+    width: 1120px;
+    overflow: 0;
+    overflow-y: scroll ;
+}
+.title-home {
+    position: absolute;
+    top: 12.5%;
+    left: 20%;
+    font-size: 66px;
+    text-indent: 5%;
+}
+.nav-bar {
+    position: absolute;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-right {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.middle-text{
+    font-size: 20px;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+.close-button { 
+    background-image: url("/images/close-button.png");
+    opacity:1;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+}
+nav { 
+    position: absolute;
+    width: 71%;
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}

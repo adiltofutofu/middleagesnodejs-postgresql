@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+body {
+    background-color: #303030;
+    margin: 0;
+    padding: 0;
+    color: #303030;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: #303030;
+}
+
+.auth-bg {
+    margin-top: 2.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 1120px;
+    margin-bottom: 2.5%;
+}
+.auth-div {
+    background-image: url("/images/knight-auth.jpg");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 690px;
+    width: 1120px;
+    overflow: 0;
+}
+.middle-text{
+    font-size: 20px;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+.close-button { 
+    background-image: url("/images/close-button.png");
+    opacity:1;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+}
+nav { 
+    position: absolute;
+    width: 71%;
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.sign-up {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    border: none;
+}
+input {
+    font-family: 'MedievalSharp', cursive;
+    font-size: 22px;
+    border: none;
+    background: transparent;
+}
+input:focus {
+    border: 2px solid #303030;
+    outline: none !important;
+}
+
+.enter-here {
+    color: #9f9ddac1;
+}
+.error {
+    color: #F4B098;
+}

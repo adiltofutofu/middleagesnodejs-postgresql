@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Welcome</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="/stylesheets/knight.css">
+    </head>
+    <body>
+        <div class="auth-bg">
+            <div class="auth-div">
+                <nav>
+                    <a href="index">
+                        <div class="close-button">
+                        </div>
+                    </a>
+                    <div>
+                        <a href="home"><p class="middle-text">MIDDLEEARTHS.</p></a>
+                    </div>
+                </nav>
+                
+                <form action="login_knight" method="POST"  class="login">
+                    <h1>Who are you stranger?</h1>
+                    <div>
+                        <input type="text" id="name" name="name" placeholder="Name" required />
+                    </div>
+                    <div>
+                        <input type="password" id="secret_phase" name="secret_phase" placeholder="Secret Phase" required />
+                    </div>
+                    <br>
+                    <div>
+                        <input type="submit" value="Start Your Experience!" />
+                    </div>
+                    <a href="knight_signup">New here? <span class="enter-here">knightly roll!</span></a>
+                    <p>
+                        <% if(messages.success_msg) { %>
+                            <p><% messages.success_msg %></p>
+                            <% } %>
+                    </p>
+
+                    <p>
+                        <% if(messages.error) { %>
+                        <p><%= messages.error %></p>
+                        <% } %>
+                    </p>
+
+
+                </form>
+            </div>
+        </div>
+        <script src="" async defer></script>
+    </body>
+</html>

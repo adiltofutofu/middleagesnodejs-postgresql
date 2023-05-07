@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+body {
+    background-color: #303030;
+    margin: 0;
+    padding: 0;
+    color: #303030;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: #303030;
+}
+
+.auth-bg {
+    margin-top: 2.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 1120px;
+    margin-bottom: 2.5%;
+}
+.auth-div {
+    background-color: #FBF9F5;
+    height: 690px;
+    width: 1120px;
+}
+.images-auth {
+    position: absolute;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.knight {
+    background-image: url("/images/auth-knight.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 380px;
+    width: 250px;
+    transition: all 1s;
+}
+.mage {
+    background-image: url("/images/auth-mage.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 380px;
+    width: 250px;
+    transition: all 1s;
+}
+.dragon {
+    background-image: url("/images/auth-dragon.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 380px;
+    width: 250px;
+    transition: all 1s;
+}
+.knight:hover {
+    background-image: url("/images/auth-knight-selected.png");
+    opacity:1;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 380px;
+    width: 250px;
+}
+.dragon:hover {
+    background-image: url("/images/auth-dragon-selected.png");
+    opacity:1;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 380px;
+    width: 250px;
+}
+.mage:hover {
+    background-image: url("/images/auth-mage-selected.png");
+    opacity:1;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 380px;
+    width: 250px;
+}
+
+.name-auth-option-knight {
+    position: relative;
+    top: 72%;
+    left: 36%;
+}
+.name-auth-option-mage {
+    position: relative;
+    top: 72%;
+    left: 43%;
+}
+.name-auth-option-dragon {
+    position: relative;
+    top: 72%;
+    left: 40%;
+}
+.middle-text{
+    font-size: 20px;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+}
+.close-button { 
+    background-image: url("/images/close-button.png");
+    opacity:1;
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 30px;
+    width: 30px;
+}
+nav { 
+    position: absolute;
+    width: 71%;
+    margin-top: 3%;
+    margin-left: 3%;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.knight-comment {
+    width: 90%;
+    font-size: 11px;
+    text-align: center;
+    padding-top: 105%;
+    padding-left: 5%;
+}
+.dragon-comment {
+    text-align: center;
+    width: 90%;
+    font-size: 11px;
+    padding-top: 105%;
+    padding-left: 5%;
+}
+.mage-comment {
+    text-align: center;
+    width: 90%;
+    font-size: 11px;
+    padding-top: 105%;
+    padding-left: 5%;
+}

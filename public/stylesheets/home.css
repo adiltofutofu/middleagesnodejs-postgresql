@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+body {
+    background-color: #303030;
+    margin: 0;
+    padding: 0;
+    color: #303030;
+    font-family: 'MedievalSharp', cursive;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: #303030;
+}
+
+.scroll-object { 
+    background-image: url("/images/castle.jpg");
+    height: 1120px;
+    position: relative;
+}
+.scroll-bg {
+    margin-top: 2.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 1120px;
+    margin-bottom: 2.5%;
+}
+.scroll-div {
+    height: 690px;
+    width: 1120px;
+    overflow: 0;
+    overflow-y: scroll ;
+}
+.button-auth {
+    position: absolute;
+    background-image: url("/images/button.png");
+    background-size: contain; 
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 300px;
+    top: 87.5%;
+    transition:all 0.5s;
+    left: 35%;
+}
+.auth-text {
+    position: absolute;
+    left: 33%;
+}
+.button-auth:hover {
+    background-image: url("/images/button-selected.png");
+    color: #FCFAF8;
+    opacity:1;
+}
+.title-home {
+    position: absolute;
+    top: 12.5%;
+    left: 20%;
+    font-size: 66px;
+    text-indent: 5%;
+}
+.nav-bar {
+    position: absolute;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-right {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
